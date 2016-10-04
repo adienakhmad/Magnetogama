@@ -1,0 +1,2 @@
+# Magnetogama
+Open Schematic Magnetic
