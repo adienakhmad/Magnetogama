@@ -1,2 +1,2 @@
 # Magnetogama
-Open Schematic Magnetic
+An Open Schematic Magnetometer
