@@ -1,0 +1,30 @@
+#######################################
+# Syntax Coloring Map
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+MagnetogamaData	KEYWORD1
+Orientation	KEYWORD1
+orientation	KEYWORD1
+BComponent	KEYWORD1
+PComponent	KEYWORD1
+Location	KEYWORD1
+Datetime	KEYWORD1
+location	KEYWORD1
+datetime	KEYWORD1
+Bcomp		KEYWORD1
+Pcomp		KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+update	KEYWORD2
+sendBinOverSerial	KEYWORD2
+
+
+######################################
+# Constants (LITERAL1)
+#######################################
