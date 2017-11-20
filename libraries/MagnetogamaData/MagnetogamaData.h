@@ -25,7 +25,7 @@ public:
 	float Z;
 };
 
-/*class PolarComponent
+class PolarComponent
 {
 public:
 	PolarComponent();
@@ -35,7 +35,7 @@ public:
 	float I;
 	float H;
 
-};*/
+};
 
 class Location
 {
@@ -84,7 +84,7 @@ public:
 	void sendASCIIOverSerial(HardwareSerial& serial);
 	//Orientation orientation;
 	BComponent Bcomp;
-	//PolarComponent Pcomp;
+	PolarComponent Pcomp;
 	Location location;
 	DateTime datetime;
 private:

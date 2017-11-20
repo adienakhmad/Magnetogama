@@ -38,7 +38,7 @@ void BComponent::newAverage(float bx, float by, float bz, int ncount)
 
 // End of BComponent class function
 
-/*
+
 // PolarComponent Class Function
 PolarComponent::PolarComponent()
 {

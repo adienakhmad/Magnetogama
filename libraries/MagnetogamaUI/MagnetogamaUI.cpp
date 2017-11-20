@@ -38,10 +38,10 @@ void PenguinUI::setNumOfRecord(unsigned int nrecord)
 	_nrecord = nrecord;
 }
 
-void PenguinUI::enableBackLight(bool state)
+void PenguinUI::toggleBackLight()
 {
 	if (_backLightPin == 0) return; // return if backlight pin is not defined.
-	setBackLight(state);
+	setBackLight(!_backLightState);
 }
 
 void PenguinUI::updateReadings(PenguinData newdata)

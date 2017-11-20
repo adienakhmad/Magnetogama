@@ -49,7 +49,7 @@ public:
 	void printMessage(char * title, char * msg, unsigned int showDuration);
 	void updateReadings(MagnetogamaData newdata);
 	void setLogoMsg(char* msg);
-	void enableBackLight(bool state);
+	void toggleBackLight();
 	void setNumOfRecord(unsigned int nrecord);
 	void setACQMode(ACQ_MODE mode);
 	void enableSleep();
